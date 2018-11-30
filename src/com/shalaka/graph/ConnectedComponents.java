@@ -1,4 +1,4 @@
-package com.shalaka.coursera.graph;
+package com.shalaka.graph;
 
 public class ConnectedComponents {
     private final Graph G;

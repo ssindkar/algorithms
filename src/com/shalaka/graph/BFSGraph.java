@@ -1,4 +1,4 @@
-package com.shalaka.coursera.graph;
+package com.shalaka.graph;
 
 import java.util.LinkedList;
 

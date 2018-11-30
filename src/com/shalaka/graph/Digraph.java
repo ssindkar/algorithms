@@ -1,16 +1,16 @@
-package com.shalaka.coursera.graph;
+package com.shalaka.graph;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Graph {
+public class Digraph {
     private final int V;
     private List<Set<Integer>> adj;
 
 
-    public Graph(int V) {
+    public Digraph(int V) {
         this.V = V;
         adj = new ArrayList<>(V);
         for (int i = 0; i < V; i++) {
@@ -20,7 +20,6 @@ public class Graph {
 
     void addEdge(int v, int w) {
         adj.get(v).add(w);
-        adj.get(w).add(v);
     }
 
     Iterable<Integer> adj(int v) {
@@ -36,6 +35,6 @@ public class Graph {
         for (int v = 0; v < V; v++) {
             total += adj.get(v).size();
         }
-        return total / 2;
+        return total;
     }
 }

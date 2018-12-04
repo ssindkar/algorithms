@@ -1,4 +1,4 @@
-package algorithms.coursera;
+package algorithms.datastructures;
 
 public class HeapSort {
     public static void sort(Comparable[] pq) {

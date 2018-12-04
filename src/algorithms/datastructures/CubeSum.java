@@ -1,4 +1,4 @@
-package algorithms.coursera;
+package algorithms.datastructures;
 
 public class CubeSum implements Comparable<CubeSum> {
     private final int sum;

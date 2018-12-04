@@ -1,4 +1,4 @@
-package algorithms.coursera;
+package algorithms.datastructures;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

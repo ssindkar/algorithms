@@ -1,4 +1,4 @@
-package algorithms.coursera;
+package algorithms.datastructures;
 
 public class DynamicMedian {
     MinPQ<Integer> minPQ = new MinPQ<>();

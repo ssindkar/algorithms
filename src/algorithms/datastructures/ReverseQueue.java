@@ -1,4 +1,4 @@
-package algorithms.coursera;
+package algorithms.datastructures;
 
 public class ReverseQueue {
     public static void main(String args[]) {

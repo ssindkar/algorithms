@@ -1,3 +1,5 @@
+#algorithms
+
 Implementation of various algorithms.
 
 1. The datastructures package has implementations of some basic algorithms.
